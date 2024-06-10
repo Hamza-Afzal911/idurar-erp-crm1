@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 
 const CollapseBoxButton = ({ onChange, title }) => {
   return (
-    <div className="collapseBoxHeader" onClick={onChange}>
+    <div className="collapseBoxHeader">
       {title}
     </div>
   );

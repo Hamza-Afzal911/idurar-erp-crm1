@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DatePicker, Input, Form, Select, InputNumber, Switch, Tag } from 'antd';
+import { DatePicker, Input, Form, Select, InputNumber, Switch, Tag, } from 'antd';
 
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
 import useLanguage from '@/locale/useLanguage';
@@ -114,6 +114,7 @@ function FormElement({ field, feedback, setFeedback }) {
       </Select>
     </Form.Item>
   );
+ 
   const SelectWithFeedbackComponent = ({ feedbackValue, lanchFeedback }) => (
     <Form.Item
       label={translate(field.label)}
@@ -140,6 +141,8 @@ function FormElement({ field, feedback, setFeedback }) {
       </Select>
     </Form.Item>
   );
+
+
   const ColorComponent = () => (
     <Form.Item
       label={translate(field.label)}
@@ -176,6 +179,7 @@ function FormElement({ field, feedback, setFeedback }) {
       </Select>
     </Form.Item>
   );
+
   const TagComponent = () => (
     <Form.Item
       label={translate(field.label)}
@@ -203,6 +207,7 @@ function FormElement({ field, feedback, setFeedback }) {
       </Select>
     </Form.Item>
   );
+
   const ArrayComponent = () => (
     <Form.Item
       label={translate(field.label)}
@@ -229,6 +234,7 @@ function FormElement({ field, feedback, setFeedback }) {
       </Select>
     </Form.Item>
   );
+
   const CountryComponent = () => (
     <Form.Item
       label={translate(field.label)}

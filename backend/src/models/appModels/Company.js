@@ -9,7 +9,14 @@ const schema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
-
+  TotalEmployees: {
+    type: 'number',
+    required: true,
+  },
+  CompanyName: {
+    type: 'string',
+    required: true,
+  },
   name: {
     type: String,
     trim: true,

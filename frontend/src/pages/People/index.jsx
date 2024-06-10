@@ -15,8 +15,8 @@ export default function People() {
 
   const Labels = {
     PANEL_TITLE: translate('person'),
-    DATATABLE_TITLE: translate('people_list'),
-    ADD_NEW_ENTITY: translate('add_new_person'),
+    DATATABLE_TITLE: translate('Client List'),
+    ADD_NEW_ENTITY: translate('add_new_client'),
     ENTITY_NAME: translate('person'),
   };
   const configPage = {

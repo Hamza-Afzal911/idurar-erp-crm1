@@ -9,10 +9,17 @@ const SupplierSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
-
+  TotalEmployees: {
+    type: 'number',
+    required: true,
+  },
   name: {
     type: String,
     trim: true,
+    required: true,
+  },
+  CompanyName: {
+    type: 'string',
     required: true,
   },
   legalName: {

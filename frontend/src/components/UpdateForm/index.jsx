@@ -19,7 +19,6 @@ export default function UpdateForm({ config, formElements, withUpload = false })
 
   const { state, crudContextAction } = useCrudContext();
 
-  /////
 
   const { panel, collapsedBox, readBox } = crudContextAction;
 

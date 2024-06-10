@@ -3,6 +3,10 @@ export const fields = {
     type: 'string',
     required: true,
   },
+  CompanyName: {
+    type: 'string',
+    required: true,
+  },
   mainContact: {
     type: 'search',
     renderAsTag: true,
@@ -15,8 +19,9 @@ export const fields = {
     searchFields: 'firstname,lastname',
     dataIndex: ['mainContact', 'firstname'],
   },
-  country: {
-    type: 'country',
+  TotalEmployees: {
+    type: 'number',
+    required: true,
   },
   phone: {
     type: 'phone',
@@ -25,8 +30,13 @@ export const fields = {
     type: 'email',
     required: true,
   },
+  country: {
+    type: 'country',
+    required: true,
+  },
   website: {
     type: 'url',
+    required: true,
   },
   // legalName: {
   //   type: 'string',
